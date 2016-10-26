@@ -1,17 +1,18 @@
 /* Text */
 body {
   font-family: Georgia, serif;
-  color:darkgoldenrod;
+  color: darkgoldenrod;
   font-size: 16px;}
 h1 {
   font-family: helvetica, sans-serif;
   font-size: 1.8em;
   font-weight: bold;
-  color: #FFB300;}
-h3 { font-family: courier, monospace;}
+  color: #FFB300;
+  text-align: center;
+  text-decoration: underline;}
 nav a {
   color: #FA7A7A;
-  font-size: 140%;
+  font-size: 120%;
   font-weight: bold;
   text-decoration: none;}
 footer p, footer a {
@@ -27,17 +28,21 @@ section.home span {
   line-height: 41px;
   position: relative;
   top: 200px;}
+.project { 
+  font-family: courier, monospace;
+  text-align: center;}
 
 /* Layout & Style */
 header {
   text-align: center;
   word-spacing: 3em;}
-a span { word-spacing:normal;}
+a span { word-spacing: normal;}
 body { background-color: floralwhite;}
-footer { background-color: #FFB300;}
-.icon {
-  display: inline-block;
-  object-position: center;}
+footer { 
+  line-height: 15px;
+  padding: 0.2px;
+  background-color: #FFB300;
+  clear: both;}
 
 /* Home Background*/
 section.home {
@@ -49,4 +54,29 @@ section.home {
   -moz-background-size: cover;
   o-backbround-size: cover;
   background-size: cover;}
+
+/* Projects Page */
+.wrapper {
+  width: 780px;
+  margin: auto;}
+.project {
+  width: 260px;
+  height: 260px;
+  margin: 0px;
+  float: left;}
+.project figure {
+  display: block;
+  padding: 1px;
+  margin: 10px;
+  background-color: bisque;}
+
+/* About Me Page */
+.icon {
+  display: inline-block;
+  object-position: center;}
+
+
+
+
+
 
