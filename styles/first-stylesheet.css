@@ -1,28 +1,31 @@
 /* Font */
 body {
-  font-family:Georgia, serif;
+  font-family: Georgia, serif;
   color:darkgoldenrod;
-  font-size: 14px;}
+  font-size: 16px;}
 h1 {
-  font-family:helvetica, sans-serif;
+  font-family: helvetica, sans-serif;
   font-size: 1.8em;
   font-weight: bold;
-  color:#FFD000;}
-h3 {
-  font-family:courier, monospace;}
+  color: #FFB300;}
+h3 {font-family: courier, monospace;}
+nav a {
+  color: #FA7A7A;
+  font-size: 140%;
+  font-weight: bold;
+  text-decoration: none;}
+footer p, footer a {
+  font-size: 1em;
+  color: beige;}
+
+/* Layout & Style */
 header{
   text-align: center;
   word-spacing: 3em;}
 a span {word-spacing:normal;}
-nav a {
-  color:#FA7A7A;
-  font-size:140%;
-  font-weight: bold;
-  text-decoration: none;}
-footer p, footer a {
-  font-size:1em;
-  color:beige;}
-/* Layout */
+body{
+  background-color: floralwhite;}
+footer {
+  background-color: #FFB300;}
 
 
-/* Style */
