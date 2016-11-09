@@ -1,51 +1,30 @@
-/* Text */
+/* All Pages */
 body {
-  color: darkgoldenrod;
+  background-color: #FFFBE5;
+  color: #81768A;
   font-size: 16px;
   font-family: 'Abhaya Libre', serif;}
+header {
+  text-align: center;
+  word-spacing: 3em;}
+.header-picture {
+  margin: 0.7rem;}
 nav, footer {
   font-family: 'Josefin Slab', serif;}
+nav a {
+  color: #F6C3B6;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;}
 h1 {
-  color: #FFB300;
+  color: #9FC791;
   font-family: 'Abhaya Libre', serif;
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;}
-nav a {
-  color: #FA7A7A;
-  font-size: 1.4rem;
-  font-weight: bold;
-  text-decoration: none;}
-
-section.home span {
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.4);
-  color: floralwhite;
-  font-size: 2.15rem;
-  font-weight: bold;
-  line-height: 41px;
-  padding: 10px; 
-  position: relative;
-  text-align: left;
-  top: 200px;}
-.project { 
-  text-align: center;}
-.intro { 
-  line-height: 25px;}
-
-/* Layout & Style */
-header {
-  text-align: center;
-  word-spacing: 3em;}
-body { 
-  background-color: floralwhite;}
-.header-picture {
-  margin:0.7rem;}
-
-/* Nav */
 a.navbar:hover {
-  color:darkred;
+  color: #C2998F;
   text-decoration: underline;}
 a span { 
   word-spacing: normal;}
@@ -58,8 +37,7 @@ nav li {
   padding: 0.4rem;}
 
 
-
-/* Home Background*/
+/* Home Page */
 section.home {
   min-height: 500px;
   background-image: url(../images/homebackground.jpg);
@@ -69,6 +47,18 @@ section.home {
   -moz-background-size: cover;
   o-backbround-size: cover;
   background-size: cover;}
+section.home span {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.4);
+  color: floralwhite;
+  font-size: 2.15rem;
+  font-weight: bold;
+  line-height: 41px;
+  padding: 10px; 
+  position: relative;
+  text-align: left;
+  top: 200px;}
+
 
 /* Projects Page */
 figcaption {
@@ -80,11 +70,14 @@ figcaption {
   float: left;
   height: 260px;
   margin: 0;
+  text-align: center;
   width: 260px;}
 .project figure {
-  background-color: bisque;
+  background-color: whitesmoke;
+  border-style: double;
+  border-color: #9FA891
   display: block;
-  margin: 10px;
+  margin: 1rem;
   padding: 1px;}
 
 /* About Me Page */
@@ -101,13 +94,15 @@ figcaption {
   display: inline-block;
   margin: 8px;}
 .intro{
+  line-height: 25px;
   margin-top: 57px;}
 .intro p {
   font-size: 1.2rem;}
 
+
 /* Footer */
 footer { 
-  background-color: #FFB300;
+  background-color: #DAC7E8;
   clear: both;
   padding: 1.2px;}
 footer ul {
@@ -116,9 +111,9 @@ footer ul {
   justify-content: space-around;}
 footer li {
   display: inline-block;
-  color: beige;}
+  color: #81768A;}
 footer a {
-  color: beige;
+  color: #81768A;
   font-size: 1rem;}
   
 
