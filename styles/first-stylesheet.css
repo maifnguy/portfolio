@@ -1,50 +1,59 @@
 /* Text */
 body {
-  font-family: Georgia, serif;
   color: darkgoldenrod;
-  font-size: 16px;}
+  font-size: 16px;
+  font-family: 'Abhaya Libre', serif;}
+nav, footer {
+  font-family: 'Josefin Slab', serif;}
 h1 {
-  font-family: helvetica, sans-serif;
-  font-size: 1.8em;
-  font-weight: bold;
   color: #FFB300;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 2rem;
+  font-weight: bold;
   text-align: center;
   text-decoration: underline;}
 nav a {
   color: #FA7A7A;
-  font-size: 120%;
+  font-size: 1.4rem;
   font-weight: bold;
   text-decoration: none;}
 footer p, footer a {
-  font-size: 1em;
-  color: beige;}
+  color: beige;
+  font-size: 1rem;}
 section.home span {
+  background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.4);
-  padding: 10px; 
-  font-size: 1.8em;
-  font-weight: bold;
-  text-align: left;
   color: floralwhite;
+  font-size: 2.15rem;
+  font-weight: bold;
   line-height: 41px;
+  padding: 10px; 
   position: relative;
+  text-align: left;
   top: 200px;}
 .project { 
-  font-family: courier, monospace;
   text-align: center;}
-.intro { line-height: 25px;}
+.intro { 
+  line-height: 25px;}
 
 /* Layout & Style */
 header {
   text-align: center;
   word-spacing: 3em;}
-a span { word-spacing: normal;}
-body { background-color: floralwhite;}
+a span { 
+  word-spacing: normal;}
+body { 
+  background-color: floralwhite;}
 footer { 
-  line-height: 15px;
-  padding: 0.2px;
   background-color: #FFB300;
-  clear: both;}
-a.navbar:hover {color:darkred;}
+  clear: both;
+  line-height: 15px;
+  padding: 0.2px;}
+a.navbar:hover {
+  color:darkred;
+  text-decoration: underline;}
+.header-picture {
+  margin:0.7rem;}
 
 /* Home Background*/
 section.home {
@@ -58,34 +67,40 @@ section.home {
   background-size: cover;}
 
 /* Projects Page */
+figcaption {
+  font-size: 1.2rem;}
 .wrapper {
-  width: 780px;
-  margin: auto;}
+  margin: auto;
+  width: 780px;}
 .project {
-  width: 260px;
+  float: left;
   height: 260px;
-  margin: 0px;
-  float: left;}
+  margin: 0;
+  width: 260px;
+  }
 .project figure {
+  background-color: bisque;
   display: block;
-  padding: 1px;
   margin: 10px;
-  background-color: bisque;}
+  padding: 1px;}
 
 /* About Me Page */
 .about{
+  margin: auto;
   width: 780px;
-  height: 330px;
-  margin: auto;}
+  height: 330px;}
 .about figure {
+  float: left;
   width: 220px;
   height: 220px;
-  float: left;
   text-align: center;}
 .icon{
   display: inline-block;
   margin: 8px;}
-.intro{margin-top: 57px;}
+.intro{
+  margin-top: 57px;}
+.intro p {
+  font-size: 1.2rem;}
 
 
 
