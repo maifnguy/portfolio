@@ -69,7 +69,7 @@ figcaption {
 .project {
   float: left;
   height: 260px;
-  margin: 0;
+  margin: 0 0 2rem 0;
   text-align: center;
   width: 260px;}
 .project figure {
@@ -78,7 +78,13 @@ figcaption {
   border-color: #9FA891
   display: block;
   margin: 1rem;
-  padding: 1px;}
+  padding: 1px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;}
+.project figure:hover {
+  margin-top: 3px;}
+
 
 /* About Me Page */
 .about{
