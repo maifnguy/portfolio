@@ -43,6 +43,7 @@ section.home {
   background-image: url(../images/homebackground.jpg);
   background-repeat: no-repeat;
   background-position: center center fixed;
+  margin: 0 0 5rem 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   o-backbround-size: cover;
@@ -69,7 +70,7 @@ figcaption {
 .project {
   float: left;
   height: 260px;
-  margin: 0 0 2rem 0;
+  margin: 0 0 1rem 0;
   text-align: center;
   width: 260px;}
 .project figure {
@@ -77,7 +78,7 @@ figcaption {
   border-style: double;
   border-color: #9FA891
   display: block;
-  margin: 1rem;
+  margin: 1rem 1rem 5rem 1rem;
   padding: 1px;
   -webkit-transition: margin 0.5s ease-out;
   -moz-transition: margin 0.5s ease-out;
@@ -89,6 +90,7 @@ figcaption {
 /* About Me Page */
 .about{
   margin: auto;
+  margin-bottom: 5rem;
   width: 780px;
   height: 330px;}
 .about figure {
@@ -110,7 +112,11 @@ figcaption {
 footer { 
   background-color: #DAC7E8;
   clear: both;
-  padding: 1.2px;}
+  padding: 1.2px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;}
 footer ul {
   list-style: none;
   display: flex;
