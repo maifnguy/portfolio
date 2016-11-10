@@ -41,7 +41,7 @@ nav li {
 
 
 /* Home Page */
-section.home {
+div.home {
   min-height: 500px;
   background-image: url(../images/homebackground.jpg);
   background-repeat: no-repeat;
@@ -51,17 +51,17 @@ section.home {
   -moz-background-size: cover;
   o-backbround-size: cover;
   background-size: cover;}
-section.home span {
+div.home span {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.4);
   color: floralwhite;
-  font-size: 2.15rem;
+  font-size: 2rem;
   font-weight: bold;
-  line-height: 41px;
+  line-height: 42px;
   padding: 10px; 
   position: relative;
   text-align: left;
-  top: 200px;}
+  top: 180px;}
 
 
 /* Projects Page */
