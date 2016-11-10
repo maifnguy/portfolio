@@ -12,7 +12,7 @@ header {
 nav, footer {
   font-family: 'Josefin Slab', serif;}
 nav a {
-  color: #F6C3B6;
+  color: #DAC7E8;
   font-size: 1.4rem;
   font-weight: bold;
   text-decoration: none;}
@@ -23,8 +23,11 @@ h1 {
   font-weight: bold;
   text-align: center;
   text-decoration: underline;}
+h2 {
+  color: #9FC791;
+  font-size: 1.5rem;}
 a.navbar:hover {
-  color: #C2998F;
+  color: #81768A;
   text-decoration: underline;}
 a span { 
   word-spacing: normal;}
@@ -87,25 +90,64 @@ figcaption {
   margin-top: 3px;}
 
 
-/* About Me Page */
+/* About Me Page */ 
 .about{
   margin: auto;
-  margin-bottom: 5rem;
   width: 780px;
-  height: 330px;}
+  height: 300px;}
 .about figure {
   float: left;
   width: 220px;
-  height: 220px;
+  height: 150px;
   text-align: center;}
 .icon{
   display: inline-block;
   margin: 8px;}
 .intro{
   line-height: 25px;
-  margin-top: 57px;}
+  margin-top: 57px;
+  margin-bottom: 57px;}
 .intro p {
   font-size: 1.2rem;}
+.intro2{
+  text-align: center;}
+ul.img-block {
+  list-style-type: none;
+  margin: 0 0 5rem 0;
+  padding: 0;
+  text-align: center;
+  float: left;
+  position: relative;
+  left: 50%;}
+ul.img-block li {
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  float: left;
+  position: relative;
+  left: -50%;
+  padding: 1rem;}
+.hover-text span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.2rem;
+  line-height: 1.5rem;}
+span.hover-text {
+  background: rgba(0,0,0,0.5);
+  color: floralwhite;
+  display: table;
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200px;
+  opacity: 0;}
+ul.img-block li:hover span.hover-text {
+  padding: 1rem;
+  opacity: 1;}
+.clear {
+  clear: both;}
 
 
 /* Footer */
@@ -123,9 +165,10 @@ footer ul {
   justify-content: space-around;}
 footer li {
   display: inline-block;
-  color: #81768A;}
+  color: #81768A;
+  font-size: 1.1rem;}
 footer a {
   color: #81768A;
-  font-size: 1rem;}
+  font-size: 1.1rem;}
   
 
