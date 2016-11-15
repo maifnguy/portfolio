@@ -14,8 +14,7 @@ nav, footer {
 nav a {
   font-weight: bold;
   text-decoration: none;
-  color: rgb(255,255,255);
-  }
+  color: rgb(255,255,255);}
 h1 {
   color: #9FC791;
   font-family: 'Abhaya Libre', serif;
@@ -88,10 +87,15 @@ div.home span {
   padding: 0.5rem;
   transition: all 0.3s ease-out 0s;}
 .project figure:hover {
-  background-color: #E0F5ED;
-  color: black;
+  background-color: rgba(159,199,145,0.3);
+  color: #395430;
   margin-top: 3px;}
-
+.project:hover:nth-child(3n-4) figure{
+  background-color: rgba(232,97,73,0.3);
+  color: #E21C61}
+.project:hover:nth-child(3n-6) figure{
+  background-color: rgba(226,157,28,0.3);
+  color: #E29D1C}
 
 /* About Me Page */ 
 .about{
