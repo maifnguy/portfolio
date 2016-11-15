@@ -12,9 +12,10 @@ header {
 nav, footer {
   font-family: 'Josefin Slab', serif;}
 nav a {
-  color: #DAC7E8;
   font-weight: bold;
-  text-decoration: none;}
+  text-decoration: none;
+  color: rgb(255,255,255);
+  }
 h1 {
   color: #9FC791;
   font-family: 'Abhaya Libre', serif;
@@ -25,9 +26,6 @@ h1 {
 h2 {
   color: #9FC791;
   font-size: 1.5rem;}
-.navbar:hover {
-  color: #81768A;
-  text-decoration: underline;}
 a span { 
   word-spacing: normal;}
 nav ul {
@@ -36,7 +34,13 @@ nav ul {
   padding: 0;}
 nav li {
   display: inline-block;
-  padding: 0.4rem;}
+  padding: 0.4rem;
+  background-color: rgba(196,66,66,0.5);
+  border: 0.1rem groove pink;
+  border-radius: 10px;}
+nav li:hover {
+  transform: rotate(-10deg);
+  transition: all 0.3s linear 0s;}
 
 
 /* Home Page */
@@ -93,8 +97,7 @@ div.home span {
 .about{
   margin: auto;
   height: 300px;
-  width: 780px;
-  }
+  width: 780px;}
 .about figure {
   float: left;
   height: 150px;
