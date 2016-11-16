@@ -151,7 +151,8 @@ span.hover-text {
   width: 200px;}
 ul.img-block li:hover span.hover-text {
   opacity: 1;
-  padding: 1rem;}
+  padding: 1rem;
+  transition: all 0.3s ease-out 0s;}
 .clear {
   clear: both;}
 
