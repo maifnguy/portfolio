@@ -39,7 +39,9 @@ nav li {
   border-radius: 10px;}
 nav li:hover {
   transform: rotate(-10deg);
-  transition: all 0.3s linear 0s;}
+  transition: all 0.3s linear 0s;
+  background-color: #FEA643;
+  border: 0.1rem groove #FFCF99;}
 
 
 /* Home Page */
